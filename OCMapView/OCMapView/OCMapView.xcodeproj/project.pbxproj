@@ -7,34 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F4B152291A3F9BB200FCA994 /* OCMapView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4B1521D1A3F9BB200FCA994 /* OCMapView.framework */; };
-		F4B152301A3F9BB200FCA994 /* OCMapViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B1522F1A3F9BB200FCA994 /* OCMapViewTests.swift */; };
-		F4B152441A3F9BC900FCA994 /* OCAlgorithmDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = F4B152391A3F9BC900FCA994 /* OCAlgorithmDelegate.h */; };
-		F4B152451A3F9BC900FCA994 /* OCAlgorithms.h in Headers */ = {isa = PBXBuildFile; fileRef = F4B1523A1A3F9BC900FCA994 /* OCAlgorithms.h */; };
-		F4B152461A3F9BC900FCA994 /* OCAlgorithms.m in Sources */ = {isa = PBXBuildFile; fileRef = F4B1523B1A3F9BC900FCA994 /* OCAlgorithms.m */; };
-		F4B152471A3F9BC900FCA994 /* OCAnnotation.h in Headers */ = {isa = PBXBuildFile; fileRef = F4B1523C1A3F9BC900FCA994 /* OCAnnotation.h */; };
-		F4B152481A3F9BC900FCA994 /* OCAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = F4B1523D1A3F9BC900FCA994 /* OCAnnotation.m */; };
-		F4B152491A3F9BC900FCA994 /* OCDistance.h in Headers */ = {isa = PBXBuildFile; fileRef = F4B1523E1A3F9BC900FCA994 /* OCDistance.h */; };
-		F4B1524A1A3F9BC900FCA994 /* OCDistance.m in Sources */ = {isa = PBXBuildFile; fileRef = F4B1523F1A3F9BC900FCA994 /* OCDistance.m */; };
-		F4B1524B1A3F9BC900FCA994 /* OCGrouping.h in Headers */ = {isa = PBXBuildFile; fileRef = F4B152401A3F9BC900FCA994 /* OCGrouping.h */; };
-		F4B1524C1A3F9BC900FCA994 /* OCMapView.h in Headers */ = {isa = PBXBuildFile; fileRef = F4B152411A3F9BC900FCA994 /* OCMapView.h */; };
-		F4B1524D1A3F9BC900FCA994 /* OCMapView.m in Sources */ = {isa = PBXBuildFile; fileRef = F4B152421A3F9BC900FCA994 /* OCMapView.m */; };
+		F4B1525F1A3F9E5A00FCA994 /* OCMapView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = F4B1525E1A3F9E5A00FCA994 /* OCMapView.h */; };
+		F4B152611A3F9E5A00FCA994 /* OCMapView.m in Sources */ = {isa = PBXBuildFile; fileRef = F4B152601A3F9E5A00FCA994 /* OCMapView.m */; };
+		F4B152671A3F9E5A00FCA994 /* libOCMapView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F4B1525C1A3F9E5A00FCA994 /* libOCMapView.a */; };
+		F4B152741A3F9EC200FCA994 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4B152731A3F9EC200FCA994 /* MapKit.framework */; };
+		F4B152761A3F9EC900FCA994 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4B152751A3F9EC900FCA994 /* UIKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		F4B1522A1A3F9BB200FCA994 /* PBXContainerItemProxy */ = {
+		F4B152681A3F9E5A00FCA994 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = F4B152141A3F9BB200FCA994 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = F4B1521C1A3F9BB200FCA994;
+			remoteGlobalIDString = F4B1525B1A3F9E5A00FCA994;
 			remoteInfo = OCMapView;
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		F4B1525A1A3F9E5A00FCA994 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				F4B1525F1A3F9E5A00FCA994 /* OCMapView.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		F4B1521D1A3F9BB200FCA994 /* OCMapView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OCMapView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4B152211A3F9BB200FCA994 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F4B152281A3F9BB200FCA994 /* OCMapViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OCMapViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4B1522E1A3F9BB200FCA994 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F4B1522F1A3F9BB200FCA994 /* OCMapViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OCMapViewTests.swift; sourceTree = "<group>"; };
 		F4B152391A3F9BC900FCA994 /* OCAlgorithmDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCAlgorithmDelegate.h; sourceTree = "<group>"; };
@@ -47,21 +51,30 @@
 		F4B152401A3F9BC900FCA994 /* OCGrouping.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCGrouping.h; sourceTree = "<group>"; };
 		F4B152411A3F9BC900FCA994 /* OCMapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMapView.h; sourceTree = "<group>"; };
 		F4B152421A3F9BC900FCA994 /* OCMapView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCMapView.m; sourceTree = "<group>"; };
+		F4B1525C1A3F9E5A00FCA994 /* libOCMapView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libOCMapView.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4B1525E1A3F9E5A00FCA994 /* OCMapView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCMapView.h; sourceTree = "<group>"; };
+		F4B152601A3F9E5A00FCA994 /* OCMapView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCMapView.m; sourceTree = "<group>"; };
+		F4B152661A3F9E5A00FCA994 /* OCMapViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OCMapViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4B1526C1A3F9E5A00FCA994 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4B152731A3F9EC200FCA994 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		F4B152751A3F9EC900FCA994 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		F4B152191A3F9BB200FCA994 /* Frameworks */ = {
+		F4B152591A3F9E5A00FCA994 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4B152761A3F9EC900FCA994 /* UIKit.framework in Frameworks */,
+				F4B152741A3F9EC200FCA994 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F4B152251A3F9BB200FCA994 /* Frameworks */ = {
+		F4B152631A3F9E5A00FCA994 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F4B152291A3F9BB200FCA994 /* OCMapView.framework in Frameworks */,
+				F4B152671A3F9E5A00FCA994 /* libOCMapView.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,9 +84,13 @@
 		F4B152131A3F9BB200FCA994 = {
 			isa = PBXGroup;
 			children = (
+				F4B152751A3F9EC900FCA994 /* UIKit.framework */,
+				F4B152731A3F9EC200FCA994 /* MapKit.framework */,
 				F4B152431A3F9BC900FCA994 /* OCMapView */,
 				F4B1521F1A3F9BB200FCA994 /* OCMapView */,
 				F4B1522C1A3F9BB200FCA994 /* OCMapViewTests */,
+				F4B1525D1A3F9E5A00FCA994 /* OCMapView */,
+				F4B1526A1A3F9E5A00FCA994 /* OCMapViewTests */,
 				F4B1521E1A3F9BB200FCA994 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -81,8 +98,8 @@
 		F4B1521E1A3F9BB200FCA994 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F4B1521D1A3F9BB200FCA994 /* OCMapView.framework */,
-				F4B152281A3F9BB200FCA994 /* OCMapViewTests.xctest */,
+				F4B1525C1A3F9E5A00FCA994 /* libOCMapView.a */,
+				F4B152661A3F9E5A00FCA994 /* OCMapViewTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -138,33 +155,41 @@
 			path = ..;
 			sourceTree = "<group>";
 		};
+		F4B1525D1A3F9E5A00FCA994 /* OCMapView */ = {
+			isa = PBXGroup;
+			children = (
+				F4B1525E1A3F9E5A00FCA994 /* OCMapView.h */,
+				F4B152601A3F9E5A00FCA994 /* OCMapView.m */,
+			);
+			path = OCMapView;
+			sourceTree = "<group>";
+		};
+		F4B1526A1A3F9E5A00FCA994 /* OCMapViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				F4B1526B1A3F9E5A00FCA994 /* Supporting Files */,
+			);
+			path = OCMapViewTests;
+			sourceTree = "<group>";
+		};
+		F4B1526B1A3F9E5A00FCA994 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F4B1526C1A3F9E5A00FCA994 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
-/* Begin PBXHeadersBuildPhase section */
-		F4B1521A1A3F9BB200FCA994 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F4B1524C1A3F9BC900FCA994 /* OCMapView.h in Headers */,
-				F4B152471A3F9BC900FCA994 /* OCAnnotation.h in Headers */,
-				F4B152441A3F9BC900FCA994 /* OCAlgorithmDelegate.h in Headers */,
-				F4B1524B1A3F9BC900FCA994 /* OCGrouping.h in Headers */,
-				F4B152491A3F9BC900FCA994 /* OCDistance.h in Headers */,
-				F4B152451A3F9BC900FCA994 /* OCAlgorithms.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXHeadersBuildPhase section */
-
 /* Begin PBXNativeTarget section */
-		F4B1521C1A3F9BB200FCA994 /* OCMapView */ = {
+		F4B1525B1A3F9E5A00FCA994 /* OCMapView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F4B152331A3F9BB200FCA994 /* Build configuration list for PBXNativeTarget "OCMapView" */;
+			buildConfigurationList = F4B1526D1A3F9E5A00FCA994 /* Build configuration list for PBXNativeTarget "OCMapView" */;
 			buildPhases = (
-				F4B152181A3F9BB200FCA994 /* Sources */,
-				F4B152191A3F9BB200FCA994 /* Frameworks */,
-				F4B1521A1A3F9BB200FCA994 /* Headers */,
-				F4B1521B1A3F9BB200FCA994 /* Resources */,
+				F4B152581A3F9E5A00FCA994 /* Sources */,
+				F4B152591A3F9E5A00FCA994 /* Frameworks */,
+				F4B1525A1A3F9E5A00FCA994 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -172,25 +197,25 @@
 			);
 			name = OCMapView;
 			productName = OCMapView;
-			productReference = F4B1521D1A3F9BB200FCA994 /* OCMapView.framework */;
-			productType = "com.apple.product-type.framework";
+			productReference = F4B1525C1A3F9E5A00FCA994 /* libOCMapView.a */;
+			productType = "com.apple.product-type.library.static";
 		};
-		F4B152271A3F9BB200FCA994 /* OCMapViewTests */ = {
+		F4B152651A3F9E5A00FCA994 /* OCMapViewTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F4B152361A3F9BB200FCA994 /* Build configuration list for PBXNativeTarget "OCMapViewTests" */;
+			buildConfigurationList = F4B152701A3F9E5A00FCA994 /* Build configuration list for PBXNativeTarget "OCMapViewTests" */;
 			buildPhases = (
-				F4B152241A3F9BB200FCA994 /* Sources */,
-				F4B152251A3F9BB200FCA994 /* Frameworks */,
-				F4B152261A3F9BB200FCA994 /* Resources */,
+				F4B152621A3F9E5A00FCA994 /* Sources */,
+				F4B152631A3F9E5A00FCA994 /* Frameworks */,
+				F4B152641A3F9E5A00FCA994 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				F4B1522B1A3F9BB200FCA994 /* PBXTargetDependency */,
+				F4B152691A3F9E5A00FCA994 /* PBXTargetDependency */,
 			);
 			name = OCMapViewTests;
 			productName = OCMapViewTests;
-			productReference = F4B152281A3F9BB200FCA994 /* OCMapViewTests.xctest */;
+			productReference = F4B152661A3F9E5A00FCA994 /* OCMapViewTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -202,10 +227,10 @@
 				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = "Arun Vijayvergiya";
 				TargetAttributes = {
-					F4B1521C1A3F9BB200FCA994 = {
+					F4B1525B1A3F9E5A00FCA994 = {
 						CreatedOnToolsVersion = 6.1;
 					};
-					F4B152271A3F9BB200FCA994 = {
+					F4B152651A3F9E5A00FCA994 = {
 						CreatedOnToolsVersion = 6.1;
 					};
 				};
@@ -222,21 +247,14 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F4B1521C1A3F9BB200FCA994 /* OCMapView */,
-				F4B152271A3F9BB200FCA994 /* OCMapViewTests */,
+				F4B1525B1A3F9E5A00FCA994 /* OCMapView */,
+				F4B152651A3F9E5A00FCA994 /* OCMapViewTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		F4B1521B1A3F9BB200FCA994 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F4B152261A3F9BB200FCA994 /* Resources */ = {
+		F4B152641A3F9E5A00FCA994 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -246,32 +264,28 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		F4B152181A3F9BB200FCA994 /* Sources */ = {
+		F4B152581A3F9E5A00FCA994 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F4B1524A1A3F9BC900FCA994 /* OCDistance.m in Sources */,
-				F4B1524D1A3F9BC900FCA994 /* OCMapView.m in Sources */,
-				F4B152481A3F9BC900FCA994 /* OCAnnotation.m in Sources */,
-				F4B152461A3F9BC900FCA994 /* OCAlgorithms.m in Sources */,
+				F4B152611A3F9E5A00FCA994 /* OCMapView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F4B152241A3F9BB200FCA994 /* Sources */ = {
+		F4B152621A3F9E5A00FCA994 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F4B152301A3F9BB200FCA994 /* OCMapViewTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		F4B1522B1A3F9BB200FCA994 /* PBXTargetDependency */ = {
+		F4B152691A3F9E5A00FCA994 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = F4B1521C1A3F9BB200FCA994 /* OCMapView */;
-			targetProxy = F4B1522A1A3F9BB200FCA994 /* PBXContainerItemProxy */;
+			target = F4B1525B1A3F9E5A00FCA994 /* OCMapView */;
+			targetProxy = F4B152681A3F9E5A00FCA994 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -361,39 +375,31 @@
 			};
 			name = Release;
 		};
-		F4B152341A3F9BB200FCA994 /* Debug */ = {
+		F4B1526E1A3F9E5A00FCA994 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = OCMapView/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
 		};
-		F4B152351A3F9BB200FCA994 /* Release */ = {
+		F4B1526F1A3F9E5A00FCA994 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = OCMapView/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
 		};
-		F4B152371A3F9BB200FCA994 /* Debug */ = {
+		F4B152711A3F9E5A00FCA994 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
@@ -405,12 +411,13 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = OCMapViewTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		F4B152381A3F9BB200FCA994 /* Release */ = {
+		F4B152721A3F9E5A00FCA994 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
@@ -418,6 +425,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = OCMapViewTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -435,20 +443,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F4B152331A3F9BB200FCA994 /* Build configuration list for PBXNativeTarget "OCMapView" */ = {
+		F4B1526D1A3F9E5A00FCA994 /* Build configuration list for PBXNativeTarget "OCMapView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F4B152341A3F9BB200FCA994 /* Debug */,
-				F4B152351A3F9BB200FCA994 /* Release */,
+				F4B1526E1A3F9E5A00FCA994 /* Debug */,
+				F4B1526F1A3F9E5A00FCA994 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F4B152361A3F9BB200FCA994 /* Build configuration list for PBXNativeTarget "OCMapViewTests" */ = {
+		F4B152701A3F9E5A00FCA994 /* Build configuration list for PBXNativeTarget "OCMapViewTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F4B152371A3F9BB200FCA994 /* Debug */,
-				F4B152381A3F9BB200FCA994 /* Release */,
+				F4B152711A3F9E5A00FCA994 /* Debug */,
+				F4B152721A3F9E5A00FCA994 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
