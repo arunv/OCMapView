@@ -204,23 +204,27 @@
             i--; // we removed one object, go back one (otherwise some will be skipped)
         }
     }
-    
+
+
+    NSMutableArray* annotationsToRemove = [NSMutableArray new];
+
     // update visible annotations
     for (id<MKAnnotation> annotation in self.displayedAnnotations) {
-        if (annotation == self.userLocation) {
-            continue;
-        }
-        
-        // remove old annotations
-        if (![annotationsToDisplay containsObject:annotation]) {
-            [super removeAnnotation:annotation];
-        } else {
-            [annotationsToDisplay removeObject:annotation];
-        }
+      if (annotation == self.userLocation) {
+        continue;
+      }
+
+      // remove old annotations
+      if (![annotationsToDisplay containsObject:annotation]) {
+        [annotationsToRemove addObject:annotation];
+      } else {
+        [annotationsToDisplay removeObject:annotation];
+      }
     }
-    
+
     // add not existing annotations
     [super addAnnotations:annotationsToDisplay];
+    [super removeAnnotations:annotationsToRemove];
     
     // update last rects & needs clustering
     _lastRefreshedMapRect = self.visibleMapRect;
