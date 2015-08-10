@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = 'OCMapView'
-  s.version      = '0.1.0'
+  s.version      = '0.1.1'
   s.platform     = :ios
   s.summary      = 'Simple, easy and fast class for clustering in MKMapViews.'
   s.homepage     = 'https://github.com/yinkou/OCMapView'
