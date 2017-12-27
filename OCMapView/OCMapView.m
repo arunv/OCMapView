@@ -141,6 +141,12 @@
 
 - (void)doClustering
 {
+    if (!_clusteringEnabled) {
+        [self doClusteringNow];
+        return;
+    }
+    
+    
     if(!_doClusteringTimer) {
         _doClusteringTimer = [NSTimer scheduledTimerWithTimeInterval:0.0
                                                               target:self
@@ -152,6 +158,7 @@
 
 - (void)doClusteringNow
 {
+    
     [_doClusteringTimer invalidate];
     _doClusteringTimer = nil;
     
